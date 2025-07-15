@@ -121,4 +121,4 @@ async def edit_deal(
 
 
 if __name__ == "__main__":
-    uvicorn.run("main:app", host="localhost", port=8000, reload=True)# 37.46.133.130
+    uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=True)# 37.46.133.130
